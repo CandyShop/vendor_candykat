@@ -36,6 +36,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/candykat/prebuilt/common/etc/init.local.rc:root/init.slim.rc
 
+#ES File Explorer
+PRODUCT_COPY_FILES += \
+    vendor/candykat/prebuilt/common/etc/ES_File_Explorer_V3.0.4.apk:system/app/ES_File_Explorer_V3.0.4.apk
+
 # Copy latinime for gesture typing
 PRODUCT_COPY_FILES += \
     vendor/candykat/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
